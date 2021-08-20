@@ -116,6 +116,8 @@ Pre-processing results We can observe that, priviledged group had 37% more chanc
 <img width="635" alt="17" src="https://user-images.githubusercontent.com/16270682/130235779-3a41c4cc-be3f-430e-9f01-62ff85523195.PNG">
 
 
+## Reference
+
 https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360 
 
 
