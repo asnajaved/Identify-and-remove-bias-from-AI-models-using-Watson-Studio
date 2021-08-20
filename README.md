@@ -46,8 +46,32 @@ Click on Assets and select Browse and add fraud_data.csv file from your file sys
 
 <img width="918" alt="9" src="https://user-images.githubusercontent.com/16270682/130228315-b24224e9-a3c1-4710-9f35-6caf48bc9c3a.PNG">
 
-## Step 5: 
+## Step 5:  Create the notebook
 
+
+### Note: You will create three Notebooks here by repeating the below steps. 
+
+From IBM Watson Dashboard click on "Add to project" and select "Notebook"
+
+<img width="750" alt="10" src="https://user-images.githubusercontent.com/16270682/130228834-fb48f7fb-14f5-4cc5-9da6-15d770e9d16e.PNG">
+
+<img width="548" alt="11" src="https://user-images.githubusercontent.com/16270682/130228859-7f3ad65d-1e87-4ee3-beaf-562ebf60bbda.PNG">
+
+Create a  Pre-processing Notebook. Select the "From URL" tab and Enter a name for the notebook. Select the runtime (2 vCPU and 8 GB RAM.)
+Enter this Notebook URL for Pre-processing : https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/notebooks/Pre-processing.ipynb
+
+<img width="953" alt="12" src="https://user-images.githubusercontent.com/16270682/130231839-5dff0600-943b-4231-9a12-c7f061a37ffd.PNG">
+
+
+After the noteboob is imported, click on Not Trusted and select the option to trust the source of the notebook.
+
+<img width="861" alt="13" src="https://user-images.githubusercontent.com/16270682/130231849-db8293d5-7543-4458-b62e-c85d428e23b2.PNG">
+
+
+Repeat the above steps for in-processing and Post-processing 
+
+Enter this Notebook URL for In-processing : https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/notebooks/In-processing.ipynb
+Enter this Notebook URL for Post-processing : https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/notebooks/Post-processing.ipynb
 
 ## Step 6:
 
