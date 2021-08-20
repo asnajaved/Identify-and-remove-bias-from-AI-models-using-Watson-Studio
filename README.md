@@ -2,7 +2,7 @@
 
 ## Step 1: Create an IBM Cloud account
 
-Login/Sign-up for IBM Cloud Account: 
+Login/Sign-up for IBM Cloud Account: https://ibm.biz/removebias 
 
 ## Step 2: Create Watson Studio service
 
