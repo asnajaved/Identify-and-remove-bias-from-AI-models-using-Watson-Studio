@@ -73,6 +73,52 @@ Repeat the above steps for in-processing and Post-processing
 Enter this Notebook URL for In-processing : https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/notebooks/In-processing.ipynb
 Enter this Notebook URL for Post-processing : https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360/blob/main/notebooks/Post-processing.ipynb
 
-## Step 6:
+## Step 6:Insert the data as dataframe
+
+Open Pre-processing Notebook from Dashboard and click on edit
+
+<img width="622" alt="14" src="https://user-images.githubusercontent.com/16270682/130236156-1172456b-d221-4141-b142-ba953a6adbdc.PNG">
+
+
+<img width="671" alt="15" src="https://user-images.githubusercontent.com/16270682/130236095-1ef5f296-026b-4977-a788-26fcdd014de5.PNG">
+
+
+Click on 0010 icon at the top right side which will bring up the data assets tab. Click on Insert to code dropdown for fraud_data.csv and select the option Insert Pandas Dataframe.
+
+<img width="245" alt="Screenshot 2021-08-20 173819" src="https://user-images.githubusercontent.com/16270682/130236073-da6aa8f7-5d64-4ee5-a239-a8ed0d76a528.png">
+
+
+## Step 7: Run the notebook & Analyze Result
+
+Click on Run icon to run the code
+
+<img width="576" alt="16" src="https://user-images.githubusercontent.com/16270682/130236006-504d58d2-ff57-4403-a2a5-b584b9aa5d4d.PNG">
+
+When a notebook is executed, what is actually happening is that each code cell in the notebook is executed, in order, from top to bottom.
+
+Each code cell is selectable and is preceded by a tag in the left margin. The tag format is In [x]:. Depending on the state of the notebook, the x can be:
+
+    A blank, this indicates that the cell has never been executed.
+    A number, this number represents the relative order this code step was executed.
+    A *, this indicates that the cell is currently executing.
+
+There are several ways to execute the code cells in your notebook:
+
+    One cell at a time.
+        Select the cell, and then press the Play button in the toolbar.
+    Batch mode, in sequential order.
+        From the Cell menu bar, there are several options available. For example, you can Run All cells in your notebook, or you can Run All Below, that will start executing from the first cell under the currently selected cell, and then continue executing all cells that follow.
+        
+        
+After we run all cells in the notebook, the results are displayed at the end of each notebook per below.
+Pre-processing results We can observe that, priviledged group had 37% more chance of getting a favorable outcome because of the bias in the dataset.
+
+<img width="635" alt="17" src="https://user-images.githubusercontent.com/16270682/130235779-3a41c4cc-be3f-430e-9f01-62ff85523195.PNG">
+
+
+https://github.com/IBM/bias-mitigation-of-machine-learning-models-using-aif360 
+
+
+
 
 
